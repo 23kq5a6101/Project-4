@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>sign up</title>
+        <style>
+           body{
+                background-image:url(zoro.jpg);
+                background-size: cover;
+               
+                height: 100%;
+
+            }
+            .box{
+                background-color:rgb(211, 211, 120,.25);
+                padding: 20px;
+                width: 300px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                margin-left:40%;
+                margin-right:40%;
+                top: 60%;
+                transform: translateY(-50%);
+                border-radius: 20px;
+            }
+            h2{
+                background-color:rgb(199, 235, 223);
+                color: black;
+               
+            }
+            nav{
+                color:blue;
+                font-size: 25;
+            }
+            nav {
+            background-color: #333;
+            color: blue;
+            font-size: 25;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 60px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+   <center> 
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="conteat us.html">Contact</a></li>
+            </ul>
+        </nav>
+         <div class="box">
+            <h3>Registration:</h3>
+            <br>
+            Name:<br>
+            <input type="text" name="uname"><br>
+            address:<br>
+            <input type="text" name="saddress"><br>
+            Phone no:<br>
+            <input type="number" name="sphone"><br>
+            Email:<br>
+            <input type="email"name="oname"><br>
+            <h3>gender</h3>
+            <input type="radio", name="sname" value="m">  male
+            <input type="radio", name="uname" value="f">    female<br>
+            <form action="/">
+            Data of Brith:
+            <input type="date"name="brithday">
+            <h3>comment</h3>
+            <textarea name="mytest" col="35" row="45">
+                 textarea.......
+                </textarea><br>
+                    <a href="login.html">SUBMIT</a>
+            </div>
+        
+    </body></center>
+</html>
